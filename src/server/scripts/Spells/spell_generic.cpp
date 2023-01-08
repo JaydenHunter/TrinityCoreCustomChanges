@@ -22,6 +22,7 @@
  * Scriptnames of files in this file should be prefixed with "spell_gen_"
  */
 
+#include "TransmogDisplayVendorConf.h"
 #include "ScriptMgr.h"
 #include "Battleground.h"
 #include "CellImpl.h"
