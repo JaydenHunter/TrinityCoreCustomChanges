@@ -22,10 +22,12 @@ void AddLfgSoloScripts();
 // void Add${NameOfDirectory}Scripts()
 
 void AddSC_AutoBalance();
-
+//TeleNPC2
+void AddSC_npc_teleport();
 void AddCustomScripts()
 {
-    // VAS AutoBalance
     AddLfgSoloScripts();
+    // VAS AutoBalance
     AddSC_AutoBalance();
+    AddSC_npc_teleport();
 }
