@@ -24,10 +24,13 @@ void AddLfgSoloScripts();
 void AddSC_AutoBalance();
 //TeleNPC2
 void AddSC_npc_teleport();
+void AddSolocraftScripts();
+
 void AddCustomScripts()
 {
     AddLfgSoloScripts();
     // VAS AutoBalance
     AddSC_AutoBalance();
     AddSC_npc_teleport();
+    AddSolocraftScripts();
 }
